@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D353B1E11A68E3170084C1D1 /* YuOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D353B1E01A68E3170084C1D1 /* YuOperation.m */; };
+		D36AB10A1A67B89A00A7DAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB1091A67B89A00A7DAB1 /* Foundation.framework */; };
+		D36AB10C1A67B89A00A7DAB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB10B1A67B89A00A7DAB1 /* CoreGraphics.framework */; };
+		D36AB10E1A67B89A00A7DAB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB10D1A67B89A00A7DAB1 /* UIKit.framework */; };
+		D36AB1141A67B89A00A7DAB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D36AB1121A67B89A00A7DAB1 /* InfoPlist.strings */; };
+		D36AB1161A67B89A00A7DAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AB1151A67B89A00A7DAB1 /* main.m */; };
+		D36AB11A1A67B89A00A7DAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AB1191A67B89A00A7DAB1 /* AppDelegate.m */; };
+		D36AB11C1A67B89A00A7DAB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36AB11B1A67B89A00A7DAB1 /* Images.xcassets */; };
+		D36AB1231A67B89A00A7DAB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB1221A67B89A00A7DAB1 /* XCTest.framework */; };
+		D36AB1241A67B89A00A7DAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB1091A67B89A00A7DAB1 /* Foundation.framework */; };
+		D36AB1251A67B89A00A7DAB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AB10D1A67B89A00A7DAB1 /* UIKit.framework */; };
+		D36AB12D1A67B89A00A7DAB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D36AB12B1A67B89A00A7DAB1 /* InfoPlist.strings */; };
+		D36AB12F1A67B89A00A7DAB1 /* YudaHttpManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AB12E1A67B89A00A7DAB1 /* YudaHttpManagerTests.m */; };
+		D36AB13B1A67BFE600A7DAB1 /* YuURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AB13A1A67BFE600A7DAB1 /* YuURLConnection.m */; };
+		D36AB13E1A67C37600A7DAB1 /* YuURLConnObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AB13D1A67C37600A7DAB1 /* YuURLConnObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36AB1261A67B89A00A7DAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36AB0FE1A67B89A00A7DAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36AB1051A67B89A00A7DAB1;
+			remoteInfo = YudaHttpManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D353B1DF1A68E3170084C1D1 /* YuOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuOperation.h; sourceTree = "<group>"; };
+		D353B1E01A68E3170084C1D1 /* YuOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuOperation.m; sourceTree = "<group>"; };
+		D36AB1061A67B89A00A7DAB1 /* YudaHttpManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YudaHttpManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36AB1091A67B89A00A7DAB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D36AB10B1A67B89A00A7DAB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D36AB10D1A67B89A00A7DAB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D36AB1111A67B89A00A7DAB1 /* YudaHttpManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YudaHttpManager-Info.plist"; sourceTree = "<group>"; };
+		D36AB1131A67B89A00A7DAB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D36AB1151A67B89A00A7DAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D36AB1171A67B89A00A7DAB1 /* YudaHttpManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YudaHttpManager-Prefix.pch"; sourceTree = "<group>"; };
+		D36AB1181A67B89A00A7DAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D36AB1191A67B89A00A7DAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D36AB11B1A67B89A00A7DAB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D36AB1211A67B89A00A7DAB1 /* YudaHttpManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YudaHttpManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36AB1221A67B89A00A7DAB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D36AB12A1A67B89A00A7DAB1 /* YudaHttpManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YudaHttpManagerTests-Info.plist"; sourceTree = "<group>"; };
+		D36AB12C1A67B89A00A7DAB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D36AB12E1A67B89A00A7DAB1 /* YudaHttpManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YudaHttpManagerTests.m; sourceTree = "<group>"; };
+		D36AB1391A67BFE600A7DAB1 /* YuURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuURLConnection.h; sourceTree = "<group>"; };
+		D36AB13A1A67BFE600A7DAB1 /* YuURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuURLConnection.m; sourceTree = "<group>"; };
+		D36AB13C1A67C37600A7DAB1 /* YuURLConnObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuURLConnObject.h; sourceTree = "<group>"; };
+		D36AB13D1A67C37600A7DAB1 /* YuURLConnObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuURLConnObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36AB1031A67B89A00A7DAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AB10C1A67B89A00A7DAB1 /* CoreGraphics.framework in Frameworks */,
+				D36AB10E1A67B89A00A7DAB1 /* UIKit.framework in Frameworks */,
+				D36AB10A1A67B89A00A7DAB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36AB11E1A67B89A00A7DAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AB1231A67B89A00A7DAB1 /* XCTest.framework in Frameworks */,
+				D36AB1251A67B89A00A7DAB1 /* UIKit.framework in Frameworks */,
+				D36AB1241A67B89A00A7DAB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36AB0FD1A67B89A00A7DAB1 = {
+			isa = PBXGroup;
+			children = (
+				D36AB10F1A67B89A00A7DAB1 /* YudaHttpManager */,
+				D36AB1281A67B89A00A7DAB1 /* YudaHttpManagerTests */,
+				D36AB1081A67B89A00A7DAB1 /* Frameworks */,
+				D36AB1071A67B89A00A7DAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36AB1071A67B89A00A7DAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB1061A67B89A00A7DAB1 /* YudaHttpManager.app */,
+				D36AB1211A67B89A00A7DAB1 /* YudaHttpManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36AB1081A67B89A00A7DAB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB1091A67B89A00A7DAB1 /* Foundation.framework */,
+				D36AB10B1A67B89A00A7DAB1 /* CoreGraphics.framework */,
+				D36AB10D1A67B89A00A7DAB1 /* UIKit.framework */,
+				D36AB1221A67B89A00A7DAB1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36AB10F1A67B89A00A7DAB1 /* YudaHttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB1381A67B8AB00A7DAB1 /* Http */,
+				D36AB1181A67B89A00A7DAB1 /* AppDelegate.h */,
+				D36AB1191A67B89A00A7DAB1 /* AppDelegate.m */,
+				D36AB11B1A67B89A00A7DAB1 /* Images.xcassets */,
+				D36AB1101A67B89A00A7DAB1 /* Supporting Files */,
+			);
+			path = YudaHttpManager;
+			sourceTree = "<group>";
+		};
+		D36AB1101A67B89A00A7DAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB1111A67B89A00A7DAB1 /* YudaHttpManager-Info.plist */,
+				D36AB1121A67B89A00A7DAB1 /* InfoPlist.strings */,
+				D36AB1151A67B89A00A7DAB1 /* main.m */,
+				D36AB1171A67B89A00A7DAB1 /* YudaHttpManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D36AB1281A67B89A00A7DAB1 /* YudaHttpManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB12E1A67B89A00A7DAB1 /* YudaHttpManagerTests.m */,
+				D36AB1291A67B89A00A7DAB1 /* Supporting Files */,
+			);
+			path = YudaHttpManagerTests;
+			sourceTree = "<group>";
+		};
+		D36AB1291A67B89A00A7DAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB12A1A67B89A00A7DAB1 /* YudaHttpManagerTests-Info.plist */,
+				D36AB12B1A67B89A00A7DAB1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D36AB1381A67B8AB00A7DAB1 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				D36AB1391A67BFE600A7DAB1 /* YuURLConnection.h */,
+				D36AB13A1A67BFE600A7DAB1 /* YuURLConnection.m */,
+				D36AB13C1A67C37600A7DAB1 /* YuURLConnObject.h */,
+				D36AB13D1A67C37600A7DAB1 /* YuURLConnObject.m */,
+				D353B1DF1A68E3170084C1D1 /* YuOperation.h */,
+				D353B1E01A68E3170084C1D1 /* YuOperation.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36AB1051A67B89A00A7DAB1 /* YudaHttpManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36AB1321A67B89A00A7DAB1 /* Build configuration list for PBXNativeTarget "YudaHttpManager" */;
+			buildPhases = (
+				D36AB1021A67B89A00A7DAB1 /* Sources */,
+				D36AB1031A67B89A00A7DAB1 /* Frameworks */,
+				D36AB1041A67B89A00A7DAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YudaHttpManager;
+			productName = YudaHttpManager;
+			productReference = D36AB1061A67B89A00A7DAB1 /* YudaHttpManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36AB1201A67B89A00A7DAB1 /* YudaHttpManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36AB1351A67B89A00A7DAB1 /* Build configuration list for PBXNativeTarget "YudaHttpManagerTests" */;
+			buildPhases = (
+				D36AB11D1A67B89A00A7DAB1 /* Sources */,
+				D36AB11E1A67B89A00A7DAB1 /* Frameworks */,
+				D36AB11F1A67B89A00A7DAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36AB1271A67B89A00A7DAB1 /* PBXTargetDependency */,
+			);
+			name = YudaHttpManagerTests;
+			productName = YudaHttpManagerTests;
+			productReference = D36AB1211A67B89A00A7DAB1 /* YudaHttpManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36AB0FE1A67B89A00A7DAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UThing;
+				TargetAttributes = {
+					D36AB1201A67B89A00A7DAB1 = {
+						TestTargetID = D36AB1051A67B89A00A7DAB1;
+					};
+				};
+			};
+			buildConfigurationList = D36AB1011A67B89A00A7DAB1 /* Build configuration list for PBXProject "YudaHttpManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D36AB0FD1A67B89A00A7DAB1;
+			productRefGroup = D36AB1071A67B89A00A7DAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36AB1051A67B89A00A7DAB1 /* YudaHttpManager */,
+				D36AB1201A67B89A00A7DAB1 /* YudaHttpManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36AB1041A67B89A00A7DAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AB1141A67B89A00A7DAB1 /* InfoPlist.strings in Resources */,
+				D36AB11C1A67B89A00A7DAB1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36AB11F1A67B89A00A7DAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AB12D1A67B89A00A7DAB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36AB1021A67B89A00A7DAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D353B1E11A68E3170084C1D1 /* YuOperation.m in Sources */,
+				D36AB11A1A67B89A00A7DAB1 /* AppDelegate.m in Sources */,
+				D36AB13B1A67BFE600A7DAB1 /* YuURLConnection.m in Sources */,
+				D36AB13E1A67C37600A7DAB1 /* YuURLConnObject.m in Sources */,
+				D36AB1161A67B89A00A7DAB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36AB11D1A67B89A00A7DAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AB12F1A67B89A00A7DAB1 /* YudaHttpManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36AB1271A67B89A00A7DAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36AB1051A67B89A00A7DAB1 /* YudaHttpManager */;
+			targetProxy = D36AB1261A67B89A00A7DAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36AB1121A67B89A00A7DAB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36AB1131A67B89A00A7DAB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D36AB12B1A67B89A00A7DAB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36AB12C1A67B89A00A7DAB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36AB1301A67B89A00A7DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D36AB1311A67B89A00A7DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36AB1331A67B89A00A7DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YudaHttpManager/YudaHttpManager-Prefix.pch";
+				INFOPLIST_FILE = "YudaHttpManager/YudaHttpManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D36AB1341A67B89A00A7DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YudaHttpManager/YudaHttpManager-Prefix.pch";
+				INFOPLIST_FILE = "YudaHttpManager/YudaHttpManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D36AB1361A67B89A00A7DAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YudaHttpManager.app/YudaHttpManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YudaHttpManager/YudaHttpManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YudaHttpManagerTests/YudaHttpManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D36AB1371A67B89A00A7DAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YudaHttpManager.app/YudaHttpManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YudaHttpManager/YudaHttpManager-Prefix.pch";
+				INFOPLIST_FILE = "YudaHttpManagerTests/YudaHttpManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36AB1011A67B89A00A7DAB1 /* Build configuration list for PBXProject "YudaHttpManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36AB1301A67B89A00A7DAB1 /* Debug */,
+				D36AB1311A67B89A00A7DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36AB1321A67B89A00A7DAB1 /* Build configuration list for PBXNativeTarget "YudaHttpManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36AB1331A67B89A00A7DAB1 /* Debug */,
+				D36AB1341A67B89A00A7DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36AB1351A67B89A00A7DAB1 /* Build configuration list for PBXNativeTarget "YudaHttpManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36AB1361A67B89A00A7DAB1 /* Debug */,
+				D36AB1371A67B89A00A7DAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36AB0FE1A67B89A00A7DAB1 /* Project object */;
+}
